@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  background-color: #e5e3c9;
+  font-family: "Hubballi", cursive;
+  text-align: center;
+  color: #219f94;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  background-color: #b4cfb0;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+h1 {
+  margin: 0;
+}
+
+#inputs {
+  margin-top: 5%;
+  background-color: #b4cfb0;
+  height: 100px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+input {
+  margin: 0 1% 0 1%;
+}
+label {
+  margin-left: 2%;
+}
+
+table {
+  margin-top: 5%;
+  background-color: #b4cfb0;
+  width: 600px;
+}
+td,
+th {
+  border: 5px solid #e5e3c9;
+}
+
+@media (max-width: 576px) {
+  #inputs {
+    margin-top: 10%;
+    height: 350px;
+    width: 350px;
+    flex-direction: column;
+  }
+  input {
+    margin: 2% 0 0 0;
+    width: 80%;
+  }
+  label {
+    margin: 5% 0 0 0;
+  }
+  button {
+    margin-top: 3%;
+    width: 30%;
+  }
+  table {
+    margin-top: 10%;
+    width: 350px;
+  }
+  th,
+  td {
+    border-width: 2px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 1200px) {
+  #inputs {
+    margin-top: 5%;
+    height: 400px;
+    width: 576px;
+    flex-direction: column;
+  }
+  input {
+    margin: 2% 0 0 0;
+    width: 80%;
+  }
+  label {
+    margin: 3% 0 0 0;
+  }
+  button {
+    margin-top: 3%;
+    width: 30%;
+  }
+  table {
+    margin: 2% 0;
+    width: 600px;
+  }
+  th,
+  td {
+    border-width: 3px;
+  }
+}
