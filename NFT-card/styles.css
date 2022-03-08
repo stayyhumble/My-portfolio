@@ -1,0 +1,114 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+
+.card {
+  width: 375px;
+  height: 600px;
+  background-color: hsl(216, 50%, 16%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -300px 0 0 -187.5px;
+  text-align: center;
+  border-radius: 20px;
+}
+/* acts as ultimate parent containing all divs */
+
+.container {
+  height: 600px;
+  width: 85%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin: -300px 0 0 -42.5%;
+  text-align: left;
+}
+/* creates a div conatining all content */
+
+.container img {
+  opacity: 1;
+  margin-top: 9%;
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+  transition: 0.5s ease;
+}
+/* sizes img */
+
+.container h1 {
+  color: #fff;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.container h1:hover {
+  color: hsl(178, 100%, 50%);
+}
+/* changes color on hover */
+.text {
+  font-size: 18px;
+  color: hsl(215, 51%, 70%);
+  font-family: "Outfit", sans-serif;
+  margin-bottom: 0;
+}
+/* manipulates css of paragraph */
+
+.price {
+  display: flex;
+  align-items: center;
+}
+/* creates a div so elements and text can be aligned on one line */
+
+.numbers {
+  color: hsl(178, 100%, 50%);
+  font-family: "Outfit", sans-serif;
+  margin-right: 125px;
+}
+
+.eth-icon {
+  margin-right: 10px;
+}
+/* adds space between icon and numbers */
+
+.days {
+  margin-left: 10px;
+  color: hsl(215, 51%, 70%);
+  font-family: "Outfit", sans-serif;
+}
+
+hr {
+  border: 1px solid hsl(215, 32%, 27%);
+  margin-bottom: 3px;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+}
+/* creates div so avatar and text can be aligned */
+
+.avatar img {
+  width: 10%;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  margin-top: 0;
+  margin-right: 15px;
+}
+
+.creation {
+  color: hsl(215, 51%, 70%);
+  font-family: "Outfit", sans-serif;
+}
+
+span {
+  color: #fff;
+}
+
+span:hover {
+  color: hsl(178, 100%, 50%);
+}
