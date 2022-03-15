@@ -81,7 +81,7 @@ body {
 }
 
 #about-me {
-  background-color: #DA0037;
+  background-color: #630606;
   align-items: center;
   width: 100vw;
   text-align: left;
@@ -292,7 +292,7 @@ margin-top: 7%;
 }
 
 #contact-me {
-  background-color: #DA0037;
+  background-color: #630606;
   height: 120px;
   width: 100vw;
   overflow: hidden;
@@ -318,3 +318,4 @@ margin-top: 7%;
     transform: scale(1.1);
   }
 }
+
