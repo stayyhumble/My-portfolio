@@ -1,0 +1,114 @@
+body {
+  background-color: #eeedde;
+  margin: 0;
+  color: burlywood;
+  font-family: "Sansita Swashed", cursive;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+#navbar {
+  background-color: #e0ddaa;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 1%;
+}
+h1 {
+  margin-top: 1%;
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+  margin: 1% 2% 0 2%;
+}
+p {
+  margin-left: 2%;
+}
+
+label {
+  margin-top: 2%;
+  font-size: 1.5rem;
+}
+textarea {
+  font-family: "Sansita Swashed", cursive;
+  color: burlywood;
+  width: 80%;
+}
+#add {
+  margin-top: 1%;
+  width: 50px;
+  height: 50px;
+  border: 2px solid burlywood;
+  border-radius: 50%;
+  background-color: #eeedde;
+}
+#add:hover {
+  background-color: beige;
+}
+.note {
+  text-align: left;
+  margin: 2% 0;
+  border: 12px solid #e0ddaa;
+  width: 90%;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 15px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 0 0 1% 2%;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #eeedde;
+  margin: 5% auto;
+  padding: 20px;
+  border: 12px solid burlywood;
+  width: 80%;
+  line-height: 1.5rem;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
